@@ -1,0 +1,13 @@
+6) Faça um algoritmo PHP que receba os valores A e B, imprima-os em ordem crescente em relação aos seus valores.
+ Exemplo, para A=5, B=4. Você deve imprimir na tela: "4 5".
+
+ ,<?php
+  $num1 = 6;
+  $num2 = 7;
+
+  if($num1 > $num2){
+    echo $num1 . " " . $num2;
+  }else{
+    echo $num2 . " " . $num1;
+  }
+?>
